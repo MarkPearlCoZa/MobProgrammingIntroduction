@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Introduction to Mob Programming</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/beige.css" id="theme">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+
+<body>
+
+<div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+
+        <section>
+            <h2>Mob Programming Introduction</h2>
+        </section>
+
+        <section data-background-color="#000000">
+            <img style="width:20em" src="assets/Peter-Block-Experience-Quote.png">
+        </section>
+
+        <section>
+            <h2>Outline</h2>
+            <p>
+                What is Mob Programming...
+            <p>
+            <p>
+                The roles and mechanics
+            <p>
+            <p>
+                Common questions
+            <p>
+            <p>
+                Things we have learnt
+            <p>
+        </section>
+
+        <section>
+            <h2>What is Mob Programming?</h2>
+        </section>
+
+        <section data-background-color="#FFFFFF" data-background-transition="slide">
+            <video data-autoplay controls src="assets/MobProgrammingDefinition.mp4"></video>
+        </section>
+
+        <section data-background-color="#000000" data-background-image="assets/Collage-All-Over-The-World.png" data-background-transition="slide" data-background-size="100% 100%">
+        </section>
+
+        <!-- The roles -->
+        <section>
+            <h2>Roles in Mob Programming...</h2>
+            <div>
+                <ul class="spacedList">
+                    <li><span class="fragment strike" data-fragment-index="1">Driver</span><span class="fragment current-visible" data-fragment-index="1"><strong> Typist</strong></span></li>
+                    <li><span class="fragment strike" data-fragment-index="1">Navigator</span><span class="fragment current-visible" data-fragment-index="1"><strong> Rest of mob</strong></span></li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>The typist</h2>
+            <div class="fragment">
+                <ol class="spacedList">
+                    <li>Listen to what the mob is asking you to do</li>
+                    <li>Translate it to code (don't prematurely challenge)</li>
+                    <li>Work with an incomplete understanding for <strong><u>short periods of time</u></strong></li>
+                </ol>
+            </div>
+        </section>
+
+        <section>
+            <h2>The rest of the mob</h2>
+            <div class="fragment">
+                <ol class="spacedList">
+                    <li>Help discover the next logical step</li>
+                    <li>Talk at appropriate levels of abstraction</li>
+                    <li>Always try to increase levels of understanding in the mob</li>
+                </ol>
+            </div>
+        </section>
+
+        <section data-background-color="#000000">
+            <img style="width:20em" src="assets/WoodyZuill-Quote-Kindness.jpg">
+        </section>
+
+        <section data-background-color="#000000">
+            <img style="width:20em" src="assets/Llewellyn-Quote2.jpg">
+        </section>
+
+        <!-- The mechanics -->
+        <section data-background-color="#FFFFFF" data-background-transition="slide">
+            <video data-autoplay controls src="assets/MobProgrammingExample.mp4"></video>
+        </section>
+
+        <section>
+            <video data-autoplay controls src="assets/mobbing-in-the-wild.mp4"></video>
+            <br>
+            <a style="font-size: 0.5em;" href="https://www.youtube.com/watch?v=Ev7uus12HRY&t=142s" target="_blank">
+                <img style="border:0" src="assets/YouTubeSml.jpg">
+            </a>
+        </section>
+
+        <section>
+            <h2>Happy Mobbing</h2>
+            <p><a href="http://twitter.com/73rhodes">@MarkPearlCoZa</a></p>
+            <p><a href="mailto:info@markpearl.co.za">Info@MarkPearl.co.za</a></p>
+            <p><a class="footerText" href="https://MarkPearlCoZa.github.io/MobProgrammingIntroduction">https://MarkPearlCoZa.github.io/MobProgrammingIntroduction</a></p>
+        </section>
+
+    </div>
+
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        history: true,
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            {src: 'plugin/markdown/marked.js'},
+            {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/notes/notes.js', async: true},
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                hljs.initHighlightingOnLoad();
+            }
+            }
+        ]
+    });
+</script>
+
+
+</body>
+</html>
